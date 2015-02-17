@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+		<link href="css/main.css" rel="stylesheet"> 
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
+  </head>
+  
+  <body>
+  	<div class = "header">
+      <h1 class = "heading">GROUNDWORKS STYLE GUIDE</h1>
+      <p class= "subheading">The style guide for Groundworks.</p>
+      <nav class="nav">
+        <a class="navi" href="#buttons">Buttons</a>
+        <a class="navi" href="#colour">Colour</a>
+        <a class="navi" href="#text">Text</a>
+        <a class="navi" href="#form">Form</a>
+        <a class="navi" href="#images">Images</a>
+      </nav>
+    </div> 
+
+    <!-- Text Section -->
+    <section id="text">
+    	<h2 class="title">Fonts Used</h2>
+    	<h3 class="roboto">Roboto Slab</h3>
+    	<h3>Lato</h3>
+
+      <h2 class= "title">Headings & Paragraphs</h2>
+    
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+      <p>Paragraph Text:</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <h3>CSS selector</h3>
+      <p>'heading'</p>
+      <p>'title'</p>
+      <p>'h1'</p>
+      <p>'h2'</p>
+      <p>'h3'</p>
+      <p>'h4'</p>
+      <p>'h5'</p>
+      <p>'h6'</p>
+
+
+    </section>
+
+
+    <!-- Colour Section -->
+    <section id="colour">
+    	<h3 class="title">Colour Pallet</h3>
+    	<div class="colour1" style="width:75px;height:75px;">#1b75bb</div>
+      <div class="colour2" style="width:75px;height:75px;">#528dca</div>
+      <div class="colour3" style="width:75px;height:75px;">#ba6227</div>
+      <div class="colour4" style="width:75px;height:75px;">#ef9630</div>
+    </section>
+
+
+    <!--BUTTONS SECTION -->
+    <section id="buttons">
+      <h2 class="title">Button Style</h2>
+      <h3>CSS selector:</h3>
+      <p>'a.button'</p>
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#" class="button"&gt;Button&lt;/a&gt;</code>
+      <h3>Rendered element:</h3>
+      <a class="button" href="#">Button</a>
+    </section>
+
+    <!-- Form Elements -->
+    <section id ="form">
+    	<div class="textInput">
+        <h2 class="title"> Form Elements </h2>
+        <h2>Text Input</h2>
+        <h3>CSS selector</h3>
+        <p>input[type="text"], input[type=text]:focus</p>
+        <h3>Sample code:</h3>
+        <code>&lt;input type="text" placeholder="Full name here"&gt;</code>
+        <h3>Rendered element:</h3>
+        <label>Name</label>
+        <input type="text" placeholder="Full name here">
+        <label for="form-comment">Comment:</label>
+        <textarea id="form-comment" placeholder="Please place comment here"></textarea>
+      </div>
+
+      <div class="navibar">
+        <h2>Nav Bar</h2>
+        <h3>CSS selector</h3>
+        <p>'nav'</p>
+        <h3>Sample code:</h3>
+        <code>&lt;a class="navi" href="#buttons"&gt;Button&lt;/a&gt;</code>
+        <h3>Rendered element:</h3>
+        <a class="navi" href="#buttons">Buttons</a>
+      </div>
+
+    </section>
+
+    <!-- Images -->
+    <section id ="images">
+      <h2 class="title">Images</h2>
+      <img src="img/img1.jpg" height="480" width="600" alt="pamhlet">
+      <img src="img/img2.jpg" height="480" width="600" alt="speakers">
+    </section>
+
+
+
+
+  </body>
+
+</html>

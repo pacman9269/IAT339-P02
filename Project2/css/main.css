@@ -1,0 +1,132 @@
+section {
+  margin: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 1rem;
+}
+
+nav{
+	position: fixed;
+	right: 0em;
+	top: 0em;
+	background-color: rgba(27,117,187,1);
+	padding: 0.5em;
+	width: 100%;
+	text-align: right;
+	border-bottom: 2px solid #528dca;
+}
+
+nav a{
+	color: white;
+	background-color: rgba(27,117,187,0.25);
+	padding: 0.5em;
+}
+
+.navi{
+	color: white;
+	background-color: rgba(27,117,187,0.25);
+	padding: 0.5em;
+}
+
+a:hover{
+	background-color:  #528dca;
+	color: black;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+a.button {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #528dca;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+a.button:hover, a.button:focus {
+  background-color: rgba(50,150,250,0.5);
+}
+
+h1{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 2.5em;
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 2em;
+}
+
+h3{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+}
+
+.heading{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 3em;
+	text-align: center;
+}
+.subheading{
+	position: fixed;
+	left: 1em;
+	top: -0.5em;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	z-index: 1;
+}
+
+.title{
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 2em;
+}
+.roboto{
+	font-family: 'Roboto Slab', serif;
+}
+
+.colour1{
+  display: inline-block;
+  background-color: #1b75bb;
+}
+
+.colour2{
+  display: inline-block;
+  background-color: #528dca;
+}
+
+.colour3{
+  display: inline-block;
+  background-color: #ba6227;
+}
+
+.colour4{
+  display: inline-block;
+  background-color: #ef9630;
+}
+
+.textInput{
+	display: inline-block;
+}
+
+.navibar{
+	display: inline-block;
+	margin: 1em;
+}
