@@ -82,3 +82,20 @@ h1{
 	padding-left: 1em;
 }
 
+.box-item-coach {
+	display: inline-block;
+}
+
+.box-item-coach-img {
+	flex-grow: 1;
+	flex-basis: 200px;
+	display: inline-block;
+	
+}
+
+.box-item-coach-txt {
+	flex-grow: 2;
+	flex-basis: 20em;
+	display: inline-block;
+
+}
