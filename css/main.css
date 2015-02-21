@@ -13,8 +13,6 @@
 
 	border: black 1px dashed;
 	margin-top: 1em;
-
-
 }
 
 .reviewContainer {
@@ -80,5 +78,36 @@ h1{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	padding-left: 1em;
+}
+
+.productContainer {
+
+border: 1px solid black;
+margin: 1em;
+}
+
+.productImage {
+
+border: 1px solid black;
+margin: 1em;
+display: inline-block;
+width: 20%;
+}
+
+.productDescription {
+
+border: 1px solid black;
+margin: 1em;
+display: inline-block;
+width: 70%;
+
+}
+
+.productReviews {
+
+border: 1px solid black;
+margin: 1em;
+width: 90%;
+
 }
 
