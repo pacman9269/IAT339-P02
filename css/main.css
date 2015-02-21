@@ -1,5 +1,6 @@
 
 
+
 .reviewContainer {
 
 border: black 1px solid;
@@ -8,25 +9,77 @@ border: black 1px solid;
 
 .reviewForm {
 	padding: 1em;
+
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.box {
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+
+	flex-wrap: wrap;
+
+	border: black 1px dashed;
+	margin-top: 1em;
+
+
+}
+.box-item-nav {
+	flex-grow: 1;
+	text-align: center;
+
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 1rem;
+}
+
+nav a, nav a:visited {
+	display: inline-block;
+	background-color: blue;
+	color: #FFFFFF;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	width: 100%;
+}
+
+
+nav a.green {
+	background-color: green;
+}
+
+
+nav a.orange {
+	background-color: orange;
+}
+
+
+nav a.purple {
+	background-color: purple;
+}
+
+
+nav a.red {
+	background-color: red;
+}
+
+
+nav a:hover, nav a:active, nav a:focus {
+	background-color: gray;
+	color: white;
 }
 
 
 h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 	padding-left: 1em;
-}
-
-nav li{
-
-display: inline-block;
-width: 20%;
-margin: 0;
-text-align: center;
-padding: 0;
-
-}
-
-nav{
-	border: black 1px solid;
-	margin: 1em;
 }
 
