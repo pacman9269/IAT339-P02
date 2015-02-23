@@ -82,20 +82,26 @@ h1{
 
 
 .box-item-coach {
-	display: inline-block;
+	flex-grow: 1;
+	text-align: center;
+
+	
 
 }
 
 .box-item-coach-img {
-	flex-grow: 1;
-	flex-basis: 200px;	
+/*	flex-grow: 1;
+	flex-basis: 200px;	*/
+
 	
 }
 
 .box-item-coach-txt {
-	flex-grow: 2;
-	flex-basis: 20em;
-	display: inline-block;
+	text-align: center;
+
+/*	flex-grow: 2;
+	flex-basis: 20em;*/
+	
 
 }
 
