@@ -17,6 +17,17 @@
 
 }
 
+.button {
+    background-color: rgb(27,117,187);
+    color: white;
+    padding: 0.5em;
+}
+
+.button:hover{
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    background-color: #528dca;
+}
 
 .reviewContainer {
 
@@ -41,7 +52,7 @@ body {
 
 nav a, nav a:visited {
 	display: inline-block;
-	background-color: blue;
+	background-color: rgba(27,117,187,1);
 	color: #FFFFFF;
 	padding: 1em 1.25em;
 	text-decoration: none;
@@ -52,28 +63,8 @@ nav a, nav a:visited {
 }
 
 
-nav a.green {
-	background-color: green;
-}
-
-
-nav a.orange {
-	background-color: orange;
-}
-
-
-nav a.purple {
-	background-color: purple;
-}
-
-
-nav a.red {
-	background-color: red;
-}
-
-
 nav a:hover, nav a:active, nav a:focus {
-	background-color: gray;
+	background-color: #528dca;
 	color: white;
 }
 
