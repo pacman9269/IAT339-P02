@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 
 }
+
 .box{
 	display: flex;
 	display: -webkit-flex;
@@ -48,8 +49,6 @@ nav a, nav a:visited {
 	transition: background-color 0.5s;
 	width: 100%;
 
-
-
 }
 
 
@@ -83,6 +82,7 @@ h1{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	padding-left: 1em;
+	text-align: center;
 }
 
 
@@ -182,4 +182,5 @@ width: 90%;
     padding: 5px 0px 0px 5px;
     width: 70%;
 }
+
 
