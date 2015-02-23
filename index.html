@@ -9,7 +9,7 @@
  <body>
 
 
-      <nav class="box">
+      <nav class="box" class ="navi">
         <div class="box-item-nav">
           <a href="#news">News</a>
         </div>
@@ -52,6 +52,7 @@
 	</section>
 
 	<section id="Coaches">
+		<h2>Coaches Info here</h2>
 		<div class="box">
 	        <div class="box-item-coach">
 	          <img src="http://placehold.it/200x200">
@@ -77,18 +78,32 @@
 	</section>
 
 
-	<section id="Footer" class="box">
-
-		<div class ="contactContainer">
-			<h1>Contact footer shit goes here</h1>
-			<label>Name</label>
-        	<input type="text" placeholder="Full name here">
-        	<label>Email</label>
-        	<input type="text" placeholder="email adress">
-        	<label for="form-comment">Comment:</label>
-        	<textarea id="form-comment" placeholder="Please place comment here" rows="3" cols="50"></textarea>
-		</div>
-
+	<section id="Footer">
+<!-- 		<div class="contactContainer" class="box">
+			<input type="text" placeholder="Name">
+			<input type="text" placeholder="email">
+			<textarea id="formComment" placeholder="Place comment here" rows="5"></textarea>
+		</div>	 -->
+		<form action="" method="post" class="contactContainer">
+		    <h1>Contact Form 
+		        <span>Please fill all the texts in the fields.</span>
+		    </h1>
+		    <label>
+		        <span>Your Name :</span>
+		        <input id="name" type="text" name="name" placeholder="Your Full Name" />
+		    </label>
+		    
+		    <label>
+		        <span>Your Email :</span>
+		        <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+		    </label>
+		    
+		    <label>
+		        <span>Message :</span>
+		        <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+		    </label> 
+    
+		</form>
 
 
 	</section>
