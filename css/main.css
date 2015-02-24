@@ -5,6 +5,7 @@
 
 }
 
+
 .box{
 	display: flex;
 	display: -webkit-flex;
@@ -15,6 +16,11 @@
 	border: black 1px dashed;
 	margin-top: 1em;
 
+}
+
+#news {
+    background-image: url("../img/bgtest.jpg");
+    width: 100%;
 }
 
 .button {
