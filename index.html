@@ -90,8 +90,8 @@
 
 		<div class="box">
 	        <div class="box-item-coach">
-	          <img src="img/headshot.jpg">
-	          <p><a href="singleproduct.html">Text about Coach</a></p>
+	          <img src="img/headshot.jpg" width= "200px" height ="200px">
+	          <p><a href="singleproduct.html">Judy McGee</a></p>
 	        </div>
 	       	<div class="box-item-coach">
 	          <img src="http://placehold.it/200x200">
@@ -142,7 +142,7 @@
 
 	</section>
 
-
+ <!-- Animation Jquery -->
 	<script>
 	$(window).scroll(function() {
 		$('#aboutContainer').each(function(){
@@ -156,6 +156,37 @@
 	});
 	</script>
 
+
+<!--Smooth Transition Jquery -->
+<script>
+
+	$(document).ready(function() {
+  function filterPath(string) {
+  return string
+    .replace(/^\//,'')
+    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+    .replace(/\/$/,'');
+  }
+  var locationPath = filterPath(location.pathname);
+  $('a[href*=#]').each(function() {
+    var thisPath = filterPath(this.pathname) || locationPath;
+    if (  locationPath == thisPath
+    && (location.hostname == this.hostname || !this.hostname)
+    && this.hash.replace(/#/,'') ) {
+      var $target = $(this.hash), target = this.hash;
+      if (target) {
+        var targetOffset = $target.offset().top;
+        $(this).click(function(event) {
+          event.preventDefault();
+          $('html, body').animate({scrollTop: targetOffset}, 400, function() {
+            location.hash = target;
+          });
+        });
+      }
+    }
+  });
+});
+	</script>
 </body>
 
 
