@@ -32,26 +32,37 @@ nav {
 }
 
 #Splash {
-    min-height: 50em;
+    flex-grow: 1;
+    min-height: 45em;
+    background-image: url("../img/clouds.jpg");
 }
 
 #news  {
-    background-image: url("../img/bg.jpg");
+    flex-grow: 1;
+/*    background-image: url("../img/bg.jpg");*/
     width: 100%;
-    color: white;
+    color: black;
     min-height: 50em;
 }
 
 #AboutUs {
-    background-image: url("../img/bg2.jpg");
+    flex-grow: 1;
+    /*background-image: url("../img/bg2.jpg");*/
     width: 100%;
     min-height: 50em;
 
+    background: #c5deea;
+    background: -moz-radial-gradient(center, ellipse cover,  #c5deea 0%, #8abbd7 31%, #066dab 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#c5deea), color-stop(31%,#8abbd7), color-stop(100%,#066dab));
+    background: -webkit-radial-gradient(center, ellipse cover,  #c5deea 0%,#8abbd7 31%,#066dab 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #c5deea 0%,#8abbd7 31%,#066dab 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #c5deea 0%,#8abbd7 31%,#066dab 100%);
+    background: radial-gradient(ellipse at center,  #c5deea 0%,#8abbd7 31%,#066dab 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 );
+
+
 }
 
-#aboutContainer {
-       /* visibility: hidden;*/
-}
 
 #Coaches {
 /*    background-image: url("../img/bg3.jpg");*/
@@ -138,7 +149,13 @@ h2 {
     flex-basis: 0.5;
     font-weight: 300;
     font-size: 0.5em;
-    padding: 2em 2em 0 2em;
+    padding: 2em 3em 2em 3em;
+}
+
+.box-item-img {
+    flex-grow: 1;
+    flex-basis: 2;
+    
 }
 
 .box-item-header {
@@ -147,6 +164,7 @@ h2 {
     text-align: center;
     font-size: 3em;
     margin-top: 2em;
+
 }
 
 .box-item-header-coach {
