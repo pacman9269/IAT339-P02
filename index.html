@@ -7,7 +7,10 @@
 
 		<title>Groundworks Life Training</title>
 		<link href='css/main.css' type='text/css' rel='stylesheet'>
+		<link href='css/animate.css' type='text/css' rel='stylesheet'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	</head>
 	
  <body>
@@ -15,7 +18,7 @@
 
       <nav class="box">
         <div class="box-item-nav">
-          <a href="#news">News</a>
+          <a href="#News">News</a>
         </div>
         <div class ="box-item-nav">
           <a href="#AboutUs">About Us</a>
@@ -28,27 +31,48 @@
         </div>
       </nav>
 
-	<section id="News">
+      	<section id="Splash">
 
-		<div id ="newsContainer" class="box">
-
-			<h1>News shit goes here</h1>
-<!-- 			<img src="http://placehold.it/1900x1080"> -->
-
-			<a class="button" href="#">Button</a>
-
+		<div id ="splashContainer" class="box">
+			<div class="box-item-title" >
+				<h1 class="animated fadeInUp">GroundWorks</h1>
+				<h2 class="animated fadeInUp">Life Coaching</h2>
+			</div>	
 
 		</div>
 
 
 	</section>
 
-	<section id="AboutUs">
+
+	<section id="News">
+
+		<div id ="newsContainer" class="box">
+			<div class="box-item-header" >
+				<h1 class="animated fadeInUp">News shit goes here</h1>
+			</div>	
+
+		</div>
+
+
+	</section>
+
+	<section id="AboutUs" >
 
 		<div id ="aboutContainer"  class ="box">
 
-			<h1>About shit goes here</h1>
-			<img src="http://placehold.it/1900x1080">
+			<div class="box-item-header">
+				<h1>About Us</h1>
+				
+				<div class= "box-item-about-txt">
+					<p>Formed in 2012, GroundWorks Training is an innovative company that improves the results and productivity of individuals and organizations.  We accomplish this in two ways: 
+					
+					<li>Corporate Training, by facilitating live workshops and providing online training that helps your organization see improved output  in 4 areas (Sales, Time Management, Procrastination vs. Productivity, Communication). Methodically figuring out the belief barriers that are limiting you from achieving peak performance, we create an optimal strategic plan as the best way to move ahead.</li> 
+					<li>Personal Development Coaching, by taking a lifestyle design approach, we help you balance work and life to maximize fulfillment in your life.</li>
+
+					GroundWorks was started with one purpose: to enable individuals and companies to maximize the best use out of their time and life. As a result, we figured out a solid system that eliminates procrastination and increases the amount of passion and productivity you have in your life. Foundations, our proven system, walks you through how to build good habits, manage your time, and effectively set goals.</p>
+				</div>	
+			</div>	
 
 		</div>
 
@@ -56,7 +80,10 @@
 	</section>
 
 	<section id="Coaches">
-		<h1>Coaches Info here</h1>
+		<div class="box-item-header-coach">
+			<h1>Lifestyle Coaches</h1>
+		</div>
+
 		<div class="box">
 	        <div class="box-item-coach">
 	          <img src="http://placehold.it/200x200">
@@ -111,6 +138,19 @@
 
 	</section>
 
+
+	<script>
+	$(window).scroll(function() {
+		$('#aboutContainer').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+600) {
+				$(this).addClass("animated zoomIn");
+			}
+		});
+	});
+	</script>
 
 </body>
 
