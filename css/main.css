@@ -385,7 +385,7 @@ border: black 1px solid;
 }
 
 .paymentContainer input[id="cvc"]{
-   width: 10%;
+   width: 13%;
    
 }
 
@@ -396,7 +396,7 @@ margin-top: 1em;
 
 .paymentContainer input[type="month"]{
     color: #000;
-    width:10%;
+    width:13%;
     padding: 0px 0px 0px 5px;
     border: 1px solid #C5E2FF;
     outline: 0;
