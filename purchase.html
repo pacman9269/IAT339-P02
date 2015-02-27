@@ -39,7 +39,7 @@
 
         <div class="reviewForm">
           
-          <input type="text" id="form-subject" placeholder="Doe">
+          <input type="text" class="form-subject" placeholder="Doe">
         
         </div>
 
@@ -67,29 +67,41 @@
         
         <div class="reviewForm">
           
-
-
-          <select id="Time">
-            <option>Select Preferred Time Block</option>
-            <option>9:00</option>
-            <option>10:00</option>
-            <option>11:00</option>
-            <option>12:00</option>
-            <option>13:00</option>
-            <option>14:00</option>
-            <option>15:00</option>
-            <option>16:00</option>
-            <option>17:00</option>
-          </select>
-        
+          <p>Time: </p>
+          <div>
+	          <input type="checkbox">9:00am
+	      
+	      
+	          <input type="checkbox">10:00am
+	      
+	      
+	          <input type="checkbox">11:00am
+	       </div>
+	       <div>
+	          <input type="checkbox">12:00pm
+	       
+	       
+	          <input type="checkbox">1:00pm
+	        
+	        
+			  <input type="checkbox">2:00pm
+			</div>
+			<div>
+	          <input type="checkbox">3:00pm
+	        
+	        
+	          <input type="checkbox">4:00pm
+	        
+	        
+	          <input type="checkbox">5:00pm
+	         </div>
         </div>
         
 
-        <div class="reviewForm">
-       <a href="index.html" class="purple">Submit your availability</a>
-		</div>
+      
       
       </form>
+
 
 
 
@@ -108,6 +120,45 @@
 	
 
 
+<div class ="paymentContainer">
+
+
+<form action="" method="post" >
+
+	<h1>Enter Your Billing Information </h1>
+
+	<label>
+		<p> Billing Address: </p>
+		<input id="address" type="text" placeholder="Billing Address"/>
+	</label>
+
+<label>
+<p> Credit Card Number: </p>
+		<input id="credit" type="text" placeholder="Credit Card #"/>
+
+</label>
+
+<label>
+<p> Expiration Date:  </p>
+		<input id="date" type="month" placeholder="Month"/>
+
+</label>
+
+<label>
+<p> CVC:  </p>
+		<input id="cvc" type="text" placeholder="CVC#"/>
+
+</label>
+
+
+</form>
+
+<div class="paymentForm">
+       <a href="index.html" class="button">Submit your availability</a>
+		</div>
+
+
+</div>
 
 <section id="Footer">
     <div class ="box">
