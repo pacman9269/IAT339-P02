@@ -154,6 +154,11 @@ nav a:hover, nav a:active, nav a:focus {
 	color: white;
 }
 
+nav a{
+    border: 1px black solid;
+    
+}
+
 
 h1{
 	font-family: 'Lato', sans-serif;
@@ -230,6 +235,7 @@ h2 {
 border: 1px solid black;
 margin: 1em;
 margin-top: 4em;
+padding-bottom: 1em
 }
 
 .productImage {
@@ -237,7 +243,9 @@ margin-top: 4em;
 border: 1px solid black;
 margin: 1em;
 display: inline-block;
-width: 20%;
+width: 200px;
+height: 200px;
+
 }
 
 
@@ -246,8 +254,9 @@ width: 20%;
 border: 1px solid black;
 margin: 1em;
 display: inline-block;
-width: 70%;
+width: 72%;
 vertical-align: top;
+padding: 1em;
 
 }
 
@@ -256,7 +265,32 @@ vertical-align: top;
 border: 1px solid black;
 margin: 1em;
 width: 90%;
+padding: 1em;
+margin-bottom: 2em;
 
+}
+
+.purchaseButtons{
+    margin: 1em;
+}
+
+.purchaseButtons a{
+    margin: 1em;
+
+    background-color: rgb(27,117,187);
+    color: white;
+    border-radius: 0.25em;
+    padding: 0.75em;
+    border: 1px solid white;
+    margin-left: 0;
+    
+
+}
+
+.purchaseButtons a:hover{
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    background-color: #528dca;
 }
 
 .contactContainer {
@@ -265,7 +299,7 @@ width: 90%;
     margin-top: 1em;
     width: 100%;
 
-    background: rgba(27,117,187,1);
+    background: #528dca;
     padding: 1.25em 1.25em 3em 1.25em;
     font-family: 'Lato', sans-serif;
     color: #fff;
@@ -274,7 +308,7 @@ width: 90%;
     font-family: 'Lato', sans-serif;
     padding: 1em;
     display: block;
-    background: rgba(27,117,187,1);
+    background: #528dca;
     border-bottom: 1px solid #528dca;
     margin: -20px -20px 15px;
 }
