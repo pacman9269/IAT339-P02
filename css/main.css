@@ -21,7 +21,9 @@
 
 }
 
-
+p {
+    padding-top: 1em;
+}
 
 nav {
     position: fixed;
@@ -286,23 +288,28 @@ height: 200px;
 .productDescription {
 
 
-margin: 1em;
+/*margin: 0.5em;*/
 display: inline-block;
 width: 72%;
 vertical-align: top;
 padding: 1em;
-
+font-weight: 300;
 }
 
 .productReviews {
-
 
 margin: 1em;
 width: 90%;
 padding: 1em;
 margin-bottom: 2em;
-border: black 1px solid;
+border: #a4d3ee 1px solid;
 
+}
+
+.productReviews h4 {
+    font-style: italic;
+    padding-top: 0.5em;
+    font-weight: 100;
 }
 
 .purchaseButtons{
@@ -446,4 +453,8 @@ margin-top: 1em;
     font-weight: 300;
     
 }
+
+
+
+
 
