@@ -292,6 +292,11 @@ padding-bottom: 0.5em;
 
 }
 
+#eventButton{
+    margin-left:0;
+
+}
+
 
 .productDescription {
 
@@ -322,6 +327,7 @@ border: #a4d3ee 1px solid;
 
 .purchaseButtons{
     margin: 1em;
+    margin-bottom: 2em;
 }
 
 .purchaseButtons a{
@@ -333,6 +339,8 @@ border: #a4d3ee 1px solid;
     padding: 0.75em;
     border: 1px solid white;
     margin-left: 0;
+    
+
     
 
 }
@@ -518,4 +526,13 @@ margin-top: 1em;
     background-color: #528dca;
 }
 
+.aboutusColumn{
+     display: inline-block;
+
+    vertical-align: top; 
+    width: 45%;
+    margin: 1em;
+
+    
+}
 
