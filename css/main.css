@@ -316,7 +316,23 @@ width: 90%;
 padding: 1em;
 margin-bottom: 2em;
 border: #a4d3ee 1px solid;
+}
 
+.eventBox{
+margin: 1em;
+width: 90%;
+padding: 1em;
+margin-bottom: 2em;
+
+
+}
+
+.eventHeader{
+    display: block;
+    text-align: center;
+    width:100%;
+    text-decoration: underline;
+    margin: 1em;
 }
 
 .productReviews h4 {
