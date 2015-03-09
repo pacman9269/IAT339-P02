@@ -39,6 +39,7 @@ nav {
     min-height: 45em;
     background-image: url("../img/clouds.jpg");
     background-size:100%;
+    background-repeat: no-repeat;
 /*    background-position:center;*/
 
 }
@@ -168,6 +169,12 @@ margin-top: 4em;
 
 }
 
+.nav-large{
+
+    flex-grow:50;
+    text-align: center;
+}
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -193,6 +200,18 @@ nav a:hover, nav a:active, nav a:focus {
 nav a{
     border: 1px black solid;
     
+}
+
+#navheader{
+    display: inline-block;
+    background-color: rgba(27,117,187,1);
+    color: #FFFFFF;
+    padding: 1em 1.25em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width: 100%;
+     border: 1px black solid;
 }
 
 
@@ -230,9 +249,12 @@ h2 {
 /*    flex-grow: 1;
     flex-basis: 1;*/
     text-align: left;
-    font-size: 3em;
-    padding-top: 2em;
-    margin-bottom: 2em; 
+    font-size: 2.5em;
+    padding-top: 4em;
+    margin-bottom: 2em;
+    padding-left: 0; 
+    margin-left: 0.25em;
+    text-align: center;
     }
 
 }
