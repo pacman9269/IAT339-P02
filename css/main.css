@@ -227,9 +227,9 @@ h2 {
 
 @media (max-width: 400px) {
     .box-item-title{
-    flex-grow: 1;
-    flex-basis: 1;
-    text-align: center;
+/*    flex-grow: 1;
+    flex-basis: 1;*/
+    text-align: left;
     font-size: 3em;
     padding-top: 2em;
     margin-bottom: 2em; 
