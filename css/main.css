@@ -38,6 +38,9 @@ nav {
     flex-grow: 1;
     min-height: 45em;
     background-image: url("../img/clouds.jpg");
+    background-size:100%;
+/*    background-position:center;*/
+
 }
 
 #news  {
@@ -222,6 +225,18 @@ h2 {
     padding: 3em;
 }
 
+@media (max-width: 400px) {
+    .box-item-title{
+    flex-grow: 1;
+    flex-basis: 1;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 2em;
+    margin-bottom: 2em; 
+    }
+
+}
+
 .box-item-about-txt {
     flex-grow: 1;
     flex-basis: 0.5;
@@ -235,7 +250,12 @@ h2 {
     flex-basis: 2;
     padding: 1em;
     width: 50%;
-    
+   
+}
+
+.box-img {
+    position: relative;
+
 }
 
 img{
